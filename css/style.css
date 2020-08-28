@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#menu {
+    background-color: #e5c6ef;
+}
+.container {
+	
+}
+.bg-light {
+    background-color: #f8f9fa00!important;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: darkgray;
+}
+.navbar-light 
+.navbar-nav 
+.nav-link:focus, 
+.navbar-light 
+.navbar-nav 
+.nav-link:hover {
+    color: #46d867;
+}
+.navbar-expand-lg 
+.navbar-nav 
+.dropdown-menu {
+    position: absolute;
+    background: darkgray;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    color: #58c6c7;
+}
+.slider-overlay{
+	background: rgba(0,0,0,.3);
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #846d00;
+    text-align: center;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #846d00;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators:active{
+    color: green;
+}
+#about{
+    color: #030303;
+    padding: 100px 0px;
+}
+.about-top h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-top p {
+     width: 700px;
+     margin: 0 auto;
+     padding-bottom: 50px;
+     font-size: 16px;
+}
+.about-content{
+
+}
+.about-icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%
+}
+.about-icon h2{
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s
+}
+.about-icon p{
+    font-size: 14px;
+}
+.about-icon h2:hover{
+    color: #806101;
+}
+.about-icon p a{
+    text-decoration: none;
+    color: #5497b6;
+    transition: 0.5s
+}
+.about-icon p a:hover{
+    color: #806101;
+    font-weight: bold;
+}
+#Sarvice{
+    background: #d3d3d3;
+    padding: 90px 0;
+}
+.sarvice-content{
+
+}
+.sarvices{
+    position: relative;
+    overflow: hidden;
+}
+.sarvices img{
+    width: 100%;
+}
+.sarvices p{
+    color: #030303;
+}
+.sarvices p a{
+    text-decoration: none;
+    color: #5497b6;
+    transition: 0.5s
+}
+.sarvices p a:hover{
+    color: #806101;
+    font-weight: bold;
+}
+.sarvice-overlay{
+    position: absolute;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s;
+}
+.sarvices:hover .sarvice-overlay{
+    top: 0;
+}
+.icon{
+    position: absolute;
+    bottom: -100%;
+    left: 40%;
+    transition: .5s;
+}
+.icon a img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    transition: .5s;
+}
+.sarvices:hover .icon{
+    bottom: 50%;
+}
+.icon a img:hover{
+    background-color: #49c453;
+    border: 1px solid #49c453;
+}
+#sell-center{
+    padding: 100px 0;
+}
+.sell-center-top p {
+     width: 700px;
+     margin: 0 auto;
+     padding-bottom: 50px;
+     font-size: 16px;
+}
+.sell-center-top h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price{
+    background: #39393a;
+    padding: 50px;
+    border-radius:5px;
+    color: #fff;
+    transition: 0.5s;
+}
+.priceing-top {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin: 1px 7px;
+    transition: 0.5s;
+}
+.priceing-top p{
+    margin-top: 20px;
+}
+.priceing-top sup {
+    font-size: 22px;
+    top: -20px;
+}
+.priceing-top em {
+    font-size: 35px;
+}
+.priceing-top span{
+ font-weight: bold;
+}
+.price ul{
+    padding: 0;
+}
+.price ul li{
+    max-width: 150px;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 15px;
+}
+.btn{
+    background: #fff; 
+    color: #39393a;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+.price:hover{
+    background: #49c453;
+    color: #fff;
+}
+.price:hover .btn{
+    background: #fff;
+    color: #49c453;
+}
+.price:hover .priceing-top{
+    background: #fff;
+    color: #49c453;
+}
+#counterup{
+     background: #404040;
+     padding: 50px 0;
+     color: #c1c1c1;
+}
+.counter-content{
+    text-transform: uppercase;
+}
+.count h3{
+    font-size: 20px;
+}
+.counter{
+    font-size: 50px;
+    font-weight: bold;
+}
+#Contact-us{
+    padding: 100px 0;
+}
+.contact-content{
+
+}
+.contact-content img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.contact-content h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #383838;
+    transition: 0.5s;
+}
+.contact-content h3{
+    font-size: 15px;
+    color: #383838;
+}
+.contact-content h2:hover{
+    color:  #49c453;
+}
+#contact-form{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: #f5f5f5;
+}
+.form{
+
+}
+.contact-form{
+  
+}
+.contact-form input{
+    width: 100%;
+    padding: 11px 2px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+}
+.message{
+    
+}
+.message textarea{
+    width: 100%;
+    height: 107px;
+    padding: 15px;
+    border: 1px solid #ccc;
+
+}
+.message input{
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #8d8c8c;
+    border: 1px solid #ccc;
+    transition: .5s;
+}
+.message input:hover{
+    background-color: #49c453;
+    color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+#social-icon{
+    background-color: #494747;
+    padding-left: 40px;
+    padding: 20px auto;
+}
+.social-icons{
+    text-align: center;
+
+}
+.social-icons img{
+    height: 50px;
+    width: 50px;
+}
+.footer{
+    text-align: center;
+    padding: 40px auto;
+    color: #434343;
+    background-color: #fff; 
+    padding: 40px auto;
+}
